@@ -6,7 +6,7 @@ from io import BytesIO
 app = Flask(__name__)
 
 # URL raw del archivo Excel en GitHub (reemplaza con la tuya)
-EXCEL_URL = 'https://github.com/cbarrazah/GUACHERNA/blob/4d9538e4f247d264b4afc2251c17be74e415a052/LISTADO%20FINAL%20GUACHERNA%202026.xlsx'
+EXCEL_URL = 'EXCEL_URL = 'https://raw.githubusercontent.com/cbarrazah/GUACHERNA/main/LISTADO%20FINAL%20GUACHERNA%202026.xlsx''
 
 def cargar_datos():
     try:

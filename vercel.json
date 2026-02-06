@@ -9,7 +9,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "app_guacherna.py"
+      "dest": "app.py"
     }
   ]
 }
