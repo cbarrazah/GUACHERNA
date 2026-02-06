@@ -1,15 +1,9 @@
 {
   "version": 2,
-  "builds": [
+  "rewrites": [
     {
-      "src": "app_guacherna.py",
-      "use": "@vercel/python"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "app_guacherna.py"
+      "source": "/(.*)",
+      "destination": "/api/app_guacherna.py"
     }
   ]
 }
